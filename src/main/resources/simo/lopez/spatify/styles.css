@@ -1,0 +1,7 @@
+.root {
+    -fx-background-color: #272727;
+    -fx-text-fill: white;
+    -fx-accent: #7b5c7b;
+    -fx-focus-color: #7b5c7b;
+    -fx-base: #2e2e2e;
+}

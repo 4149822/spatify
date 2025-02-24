@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox prefHeight="462.0" prefWidth="496.0" spacing="10" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simo.lopez.spatify.ArtistasController">
+<VBox stylesheets="@styles.css" prefHeight="462.0" prefWidth="496.0" spacing="10" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simo.lopez.spatify.ArtistasController">
     <ListView fx:id="listViewArtistas" />
     <Button onAction="#generar" prefHeight="41.0" prefWidth="496.0" text="Generar Informe" />
 </VBox>
